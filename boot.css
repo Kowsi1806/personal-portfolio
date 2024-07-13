@@ -1,29 +1,35 @@
 body {
     background-color: #FFDEE9;
     background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
-    /* margin: 0px 200px 0px 200px; */
+    margin: 0;
+    margin-bottom: 70px;
     text-align: center;
+    
 }
 
-.d-block {
+.profile-pic {
     border-radius: 50%;
     border: 2px solid #d43f8d;
     box-shadow: #d43f8d;
 }
 
-#home {
-    background-color: #08AEEA;
-    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+div {
     display: block;
+}
+
+#home {
+    background-color: #e4f9f5;
+    width: 30%;
+    margin: 0 auto 0 auto;
     color: #4535C1;
     font-weight: bold;
     font-family: "Sacramento", cursive;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
 } 
 
-.lead {
-    width: 40%;
-    margin: auto;
-}
+
 
 .container {
     background-color: white;
@@ -31,14 +37,14 @@ body {
     color: #66bfbf;
     font-family: "Merriweather", serif;
     font-size: large;
-    /* text-align: center; */
     width: 100%;
     
 }
 
-.container h2 {
+
+.container h3 {
     font-family: "Montserrat", sans-serif;
-    margin-bottom: 20px;
+    margin: 0px 20px;
     padding: 20px;
     
 }
@@ -52,13 +58,13 @@ body {
 
 
 .intro {
-    width: 40%;
+    width: 30%;
     margin: auto;
     padding-bottom: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
-.btn {
+ .btn {
     background: #11cdd4;
     background-image: linear-gradient(to bottom, #11cdd4, #11999e);
     border-radius: 8px;
@@ -67,6 +73,6 @@ body {
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-    margin-bottom: 100px;
+    margin: 10px 20px;
+} 
 
-}
